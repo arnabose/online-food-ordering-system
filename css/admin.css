@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap');
+*{
+    font-family: 'Nunito', sans-serif;
+	margin: 0; padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	outline: none; border: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+body{
+    background: #eee;
+}
+/* ------------login and signup page of admin panel css starts here------------ */
+.logo{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: #192a56;
+    margin: 2px;
+}
+
+/* registration box css starts here------- */
+.position{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    margin-top: 3%;
+    background: #fff;
+    padding: 30px;
+    box-shadow: 0px 0px 10px 0px rgb(102, 102, 102);
+    border-radius: 10px;
+}
+.box h3{
+    text-align: center;
+    padding: 10px;
+    color: #27ae60;
+}
+.box p{
+    margin: 25px;
+    color: #192a56;
+    text-align: center;
+}
+.form-control{
+    background:  #eee;
+    border-radius: 10px;
+}
+.btn{
+    border-radius: 10px;
+    background: #192a56;
+    font-variant: small-caps;
+    box-shadow: 3px 3px 10px 0px rgb(102, 102, 102);
+}
+/* registration box css ends here---------- */
+/* ------------login and signup page css of admin panel ends here------------- */
+
+
+
+/* ------------navigation bar css of admin panel starts here------------------ */
+.sticky-top{
+   box-shadow:0 .5rem 1.5rem rgba(0,0,0,.1) ;
+}
+.navbar-brand{
+    color: #192a56;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+.nav-item{
+    margin-inline: 1.2mm;
+}
+.navbar-collapse{
+    display: flex;
+    justify-content: center;
+}
+.nav-link{
+    border-radius: .5rem;
+ 	padding: .5rem 1.5rem;
+    transition-duration: .3s;
+    color: Black;
+}
+.nav-link:hover{
+    color: #fff;
+    background: #df113c;
+}
+/* ------------navigation bar css of admin panel ends here------------------ */
+
+.admin-name{
+    text-align: center;
+    font-size: 2rem;
+    color: #27ae60;
+    margin: 6px;
+}
+.d-flex h2{
+    font-weight: bold;
+    color: #192a56;
+}
+.d-flex .btn:hover{
+    color: #fff;
+    background: #df113c;
+}
+
+
+/* ----------------------table css starts here------------------------------------ */
+.tbl-content{
+    background: #fff;
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 2%;
+}
+.fa-pen-to-square{
+    color:#27ae60;
+    padding: 3% 25% 3% 25%;
+    border-radius: 8px;
+}
+.fa-pen-to-square:hover{
+    color:#fff;
+    background: #27ae60;
+}
+.fa-trash-can{
+    color:#df113c;
+    padding: 3% 25% 3% 25%;
+    border-radius: 8px;
+}
+.fa-trash-can:hover{
+    color:#fff;
+    background: #df113c;
+}
+/* ----------------------------table css ends here------------------------------------ */
